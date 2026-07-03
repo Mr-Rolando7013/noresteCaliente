@@ -1,0 +1,6633 @@
+[
+    {
+  "id": "neltuma_glandulosa",
+
+  "nombre_comun": [
+    "mezquite",
+    "mezquite dulce",
+    "mezquite espinoso"
+  ],
+
+  "nombre_cientifico": "Neltuma glandulosa",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fabales",
+    "familia": "Fabaceae",
+    "genero": "Neltuma",
+    "especie": "glandulosa"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 12,
+    "diametro_copa_m": 12,
+    "diametro_tronco_cm": 60,
+    "longevidad_anios": 150
+  },
+
+  "ecologia": {
+    "agua": "baja",
+    "sol": "pleno",
+    "crecimiento": "medio",
+    "captura_carbono": "alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral espinoso tamaulipeco",
+      "Matorral xerófilo",
+      "Bosque espinoso",
+      "Pastizal semiárido"
+    ],
+    "altitud_min_m": 0,
+    "altitud_max_m": 1800
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita"
+  ],
+
+  "rol_ecologico": [
+    "pionera",
+    "colonizadora",
+    "estructural",
+    "nodriza",
+    "fijadora_nitrogeno",
+    "fijadora_suelo",
+    "melifera",
+    "frugifera",
+    "atrayente_polinizadores",
+    "ingeniera_ecosistema"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana",
+    "persistencia": "permanente",
+    "estrato": "dosel"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": true,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "media",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "baja",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "muy_profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "alta"
+    },
+
+    "reproduccion": {
+      "floracion": "abundante",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "mamiferos",
+        "aves",
+        "ganado"
+      ],
+      "refugio_fauna": "alto",
+      "valor_melifero": "alto"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "control_erosion",
+      "recuperacion_suelo",
+      "captura_carbono",
+      "corredores_biologicos",
+      "restauracion_post_incendio",
+      "restauracion_suelos_degradados"
+    ],
+
+    "sitios_recomendados": [
+      "planicies",
+      "lomerios",
+      "laderas",
+      "suelos_pedregosos",
+      "suelos_degradados",
+      "pastizales_abandonados",
+      "matorrales_degradados"
+    ],
+
+    "no_recomendado": [
+      "humedales_permanentes",
+      "bosques_mesofilos",
+      "sitios_con_inundacion_prolongada"
+    ],
+
+    "especies_facilitadas": [
+      "arbustos",
+      "cactaceas",
+      "gramineas_nativas",
+      "herbaceas_perennes"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "avispas",
+      "mariposas"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "sucesion_ecologica": "muy_alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "Monografías del género Neltuma (Prosopis)",
+      "Ecología del Desierto Chihuahuense",
+      "Restauración ecológica de zonas áridas y semiáridas",
+      "Ecología funcional de Fabaceae",
+      "Servicios ecosistémicos de los mezquites"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "altitud_min_m",
+      "altitud_max_m",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "vachellia_farnesiana",
+
+  "nombre_comun": [
+    "huizache",
+    "huizache común",
+    "espino",
+    "acacia dulce",
+    "aroma"
+  ],
+
+  "nombre_cientifico": "Vachellia farnesiana",
+
+  "tipo": "arbol_arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fabales",
+    "familia": "Fabaceae",
+    "genero": "Vachellia",
+    "especie": "farnesiana"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 10,
+    "diametro_copa_m": 8,
+    "diametro_tronco_cm": 40,
+    "longevidad_anios": 80
+  },
+
+  "ecologia": {
+    "agua": "baja",
+    "sol": "pleno",
+    "crecimiento": "rapido",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral espinoso tamaulipeco",
+      "Matorral xerófilo",
+      "Bosque espinoso",
+      "Selva baja caducifolia",
+      "Pastizal degradado"
+    ],
+    "altitud_min_m": 0,
+    "altitud_max_m": 2000
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita"
+  ],
+
+  "rol_ecologico": [
+    "pionera",
+    "colonizadora",
+    "nodriza",
+    "fijadora_nitrogeno",
+    "fijadora_suelo",
+    "melifera",
+    "frugifera",
+    "atrayente_polinizadores",
+    "ingeniera_ecosistema"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana",
+    "persistencia": "permanente",
+    "estrato": "arbustivo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": true,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "media",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "media",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media",
+      "capacidad_sombra": "media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "alta"
+    },
+
+    "reproduccion": {
+      "floracion": "abundante",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos",
+        "insectos"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "muy_alto"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "control_erosion",
+      "recuperacion_suelo",
+      "restauracion_suelos_degradados",
+      "recuperacion_matorrales",
+      "corredores_biologicos",
+      "recuperacion_de_areas_perturbadas"
+    ],
+
+    "sitios_recomendados": [
+      "laderas",
+      "bordes_de_caminos",
+      "pastizales_degradados",
+      "suelos_compactados",
+      "suelos_pobres",
+      "matorrales_secundarios"
+    ],
+
+    "no_recomendado": [
+      "bosques_mesofilos",
+      "humedales_permanentes",
+      "sitios_con_sombra_densa"
+    ],
+
+    "especies_facilitadas": [
+      "gramineas_nativas",
+      "herbaceas_perennes",
+      "arbustos_secundarios",
+      "cactaceas"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "avispas",
+      "mariposas"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "sucesion_ecologica": "alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Vachellia_farnesiana",
+      "ecologia_funcional_de_Fabaceae",
+      "restauracion_ecologica_de_zonas_aridas_y_semiaridas",
+      "servicios_ecosistemicos_de_acacias_mesoamericanas"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "parkinsonia_aculeata",
+
+  "nombre_comun": [
+    "palo verde",
+    "retama espinosa",
+    "retama",
+    "espino verde"
+  ],
+
+  "nombre_cientifico": "Parkinsonia aculeata",
+
+  "tipo": "arbol_arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fabales",
+    "familia": "Fabaceae",
+    "genero": "Parkinsonia",
+    "especie": "aculeata"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 10,
+    "diametro_copa_m": 8,
+    "diametro_tronco_cm": 50,
+    "longevidad_anios": 100
+  },
+
+  "ecologia": {
+    "agua": "muy_baja",
+    "sol": "pleno",
+    "crecimiento": "rapido",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral xerófilo",
+      "Matorral espinoso tamaulipeco",
+      "Bosque espinoso",
+      "Selva baja caducifolia",
+      "Vegetación riparia temporal"
+    ],
+    "altitud_min_m": 0,
+    "altitud_max_m": 1500
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita"
+  ],
+
+  "rol_ecologico": [
+    "pionera",
+    "colonizadora",
+    "nodriza",
+    "fijadora_nitrogeno",
+    "fijadora_suelo",
+    "melifera",
+    "atrayente_polinizadores",
+    "ingeniera_ecosistema"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana",
+    "persistencia": "permanente",
+    "estrato": "dosel_bajo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": true,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "media",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "media",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "media"
+    },
+
+    "copa": {
+      "densidad": "baja",
+      "capacidad_sombra": "media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "rapida",
+      "mejora_materia_organica": "media"
+    },
+
+    "reproduccion": {
+      "floracion": "abundante",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos",
+        "insectos"
+      ],
+
+      "refugio_fauna": "medio",
+      "valor_melifero": "alto"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "control_erosion",
+      "recuperacion_suelo",
+      "restauracion_suelos_degradados",
+      "recuperacion_de_areas_perturbadas",
+      "formacion_de_microclima"
+    ],
+
+    "sitios_recomendados": [
+      "planicies_aridas",
+      "lomerios",
+      "suelos_pobres",
+      "suelos_pedregosos",
+      "zonas_perturbadas",
+      "matorrales_degradados"
+    ],
+
+    "no_recomendado": [
+      "bosques_mesofilos",
+      "sitios_con_sombra_densa",
+      "humedales_permanentes"
+    ],
+
+    "especies_facilitadas": [
+      "gramineas_nativas",
+      "herbaceas_perennes",
+      "arbustos_xerofilos",
+      "cactaceas"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "avispas",
+      "mariposas"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "alta",
+    "sucesion_ecologica": "alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Parkinsonia_aculeata",
+      "ecologia_funcional_de_Fabaceae",
+      "restauracion_ecologica_de_zonas_aridas_y_semiaridas",
+      "vegetacion_del_noreste_de_Mexico"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "celtis_pallida",
+
+  "nombre_comun": [
+    "granjeno",
+    "granjeno blanco",
+    "garabato",
+    "chaparro prieto"
+  ],
+
+  "nombre_cientifico": "Celtis pallida",
+
+  "tipo": "arbusto_arbol_pequeno",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Rosales",
+    "familia": "Cannabaceae",
+    "genero": "Celtis",
+    "especie": "pallida"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 6,
+    "diametro_copa_m": 5,
+    "diametro_tronco_cm": 25,
+    "longevidad_anios": 80
+  },
+
+  "ecologia": {
+    "agua": "baja",
+    "sol": "pleno",
+    "crecimiento": "medio",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral espinoso tamaulipeco",
+      "Matorral xerófilo",
+      "Bosque espinoso",
+      "Selva baja caducifolia"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 1800
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita"
+  ],
+
+  "rol_ecologico": [
+    "estructural",
+    "nodriza",
+    "fijadora_suelo",
+    "frugifera",
+    "atrayente_polinizadores",
+    "ingeniera_ecosistema"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia",
+    "persistencia": "permanente",
+    "estrato": "arbustivo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "alta",
+      "heladas": "media",
+      "calor": "alta",
+      "salinidad": "baja",
+      "inundacion": "baja",
+      "sombra": "media"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media_profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "media"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "recuperacion_de_matorral",
+      "corredores_biologicos",
+      "restauracion_de_habitat_para_fauna",
+      "control_erosion",
+      "formacion_de_microhabitat"
+    ],
+
+    "sitios_recomendados": [
+      "matorrales_degradados",
+      "laderas",
+      "suelos_pobres",
+      "zonas_semiaridas",
+      "bordes_de_fragmentos_naturales"
+    ],
+
+    "no_recomendado": [
+      "humedales_permanentes",
+      "sitios_con_inundacion_prolongada",
+      "bosques_muy_humedos"
+    ],
+
+    "especies_facilitadas": [
+      "herbaceas_perennes",
+      "gramineas_nativas",
+      "arbustos_secundarios",
+      "cactaceas"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "mariposas"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "alta",
+    "sucesion_ecologica": "media_alta",
+    "rasgos_funcionales": "media_alta",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Celtis_pallida",
+      "vegetacion_del_matorral_espinoso_tamaulipeco",
+      "ecologia_funcional_de_Cannabaceae",
+      "restauracion_ecologica_del_noreste_de_Mexico"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "forestiera_angustifolia",
+
+  "nombre_comun": [
+    "palo verde del noreste",
+    "acebuche",
+    "forestiera",
+    "privet silvestre"
+  ],
+
+  "nombre_cientifico": "Forestiera angustifolia",
+
+  "tipo": "arbusto_arbol_pequeno",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Lamiales",
+    "familia": "Oleaceae",
+    "genero": "Forestiera",
+    "especie": "angustifolia"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 8,
+    "diametro_copa_m": 6,
+    "diametro_tronco_cm": 25,
+    "longevidad_anios": 80
+  },
+
+  "ecologia": {
+    "agua": "baja_media",
+    "sol": "pleno",
+    "crecimiento": "medio",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral espinoso tamaulipeco",
+      "Matorral xerófilo",
+      "Bosque espinoso",
+      "Bosque de encino abierto"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 1600
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita"
+  ],
+
+  "rol_ecologico": [
+    "estructural",
+    "nodriza",
+    "fijadora_suelo",
+    "frugifera",
+    "atrayente_polinizadores"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia",
+    "persistencia": "permanente",
+    "estrato": "arbustivo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "alta",
+      "heladas": "media",
+      "calor": "alta",
+      "salinidad": "baja_media",
+      "inundacion": "media",
+      "sombra": "media"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media_profunda",
+      "expansion_lateral": "media_alta"
+    },
+
+    "copa": {
+      "densidad": "media_alta",
+      "capacidad_sombra": "media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "media"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "media_alta",
+      "regeneracion_natural": "media_alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "recuperacion_de_matorral",
+      "formacion_de_habitat",
+      "corredores_biologicos",
+      "control_erosion",
+      "incremento_diversidad_vegetal"
+    ],
+
+    "sitios_recomendados": [
+      "matorrales_degradados",
+      "laderas",
+      "suelos_calcareos",
+      "zonas_semiaridas",
+      "bordes_de_fragmentos_naturales"
+    ],
+
+    "no_recomendado": [
+      "humedales_permanentes",
+      "sitios_extremadamente_aridos_sin_suelo"
+    ],
+
+    "especies_facilitadas": [
+      "herbaceas_perennes",
+      "gramineas_nativas",
+      "arbustos_secundarios"
+    ],
+
+    "prioridad_uso": "media_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "media_alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "media_alta",
+    "sucesion_ecologica": "media",
+    "rasgos_funcionales": "media",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Forestiera_angustifolia",
+      "vegetacion_del_noreste_de_Mexico",
+      "ecologia_funcional_de_Oleaceae",
+      "restauracion_ecologica_del_matorral_espinoso_tamaulipeco"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "quercus_laeta",
+
+  "nombre_comun": [
+    "encino laurelillo",
+    "encino"
+  ],
+
+  "nombre_cientifico": "Quercus laeta",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fagales",
+    "familia": "Fagaceae",
+    "genero": "Quercus",
+    "especie": "laeta"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 25,
+    "diametro_copa_m": 15,
+    "diametro_tronco_cm": 100,
+    "longevidad_anios": 200
+  },
+
+  "ecologia": {
+    "agua": "media",
+    "sol": "pleno_media_sombra",
+    "crecimiento": "lento_medio",
+    "captura_carbono": "muy_alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Bosque de encino",
+      "Bosque templado",
+      "Bosque de encino-pino",
+      "Matorral submontano"
+    ],
+
+    "altitud_min_m": 800,
+    "altitud_max_m": 2800
+  },
+
+  "adaptaciones_ecologicas": [
+    "tolerante_sequia_estacional",
+    "tolerante_frio"
+  ],
+
+  "rol_ecologico": [
+    "estructural",
+    "especie_clave",
+    "ingeniera_ecosistema",
+    "nodriza",
+    "frugifera",
+    "hospedera"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "media_alta",
+      "heladas": "alta",
+      "calor": "media",
+      "salinidad": "baja",
+      "inundacion": "baja",
+      "sombra": "media"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "muy_alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "lenta_media",
+      "mejora_materia_organica": "muy_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "media_alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_bosque_maduro",
+      "captura_carbono",
+      "formacion_de_dosel",
+      "recuperacion_habitat_fauna",
+      "regulacion_microclima",
+      "proteccion_suelo"
+    ],
+
+    "sitios_recomendados": [
+      "laderas_montañosas",
+      "suelos_profundos",
+      "zonas_de_transicion_bosque_matorral",
+      "sitios_con_regimen_hidrico_estacional"
+    ],
+
+    "no_recomendado": [
+      "zonas_aridas_extremas",
+      "suelos_salinos",
+      "sitios_sin_cobertura_vegetal_y_alta_degradacion"
+    ],
+
+    "especies_facilitadas": [
+      "arbustos_de_sotobosque",
+      "herbaceas_nativas",
+      "hongos_micorrizicos",
+      "fauna_asociada_al_bosque"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos",
+      "hongos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "muy_alta",
+    "sucesion_ecologica": "muy_alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_del_genero_Quercus",
+      "bosques_de_encino_de_Mexico",
+      "dinamica_de_bosques_maduros",
+      "ecologia_funcional_de_Fagaceae"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+}, 
+{
+  "id": "quercus_fusiformis",
+
+  "nombre_comun": [
+    "encino siempreverde",
+    "encino de Texas",
+    "encino roble"
+  ],
+
+  "nombre_cientifico": "Quercus fusiformis",
+
+  "tipo": "arbol_arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fagales",
+    "familia": "Fagaceae",
+    "genero": "Quercus",
+    "especie": "fusiformis"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 15,
+    "diametro_copa_m": 15,
+    "diametro_tronco_cm": 80,
+    "longevidad_anios": 200
+  },
+
+  "ecologia": {
+    "agua": "baja_media",
+    "sol": "pleno_media_sombra",
+    "crecimiento": "lento_medio",
+    "captura_carbono": "alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Bosque de encino",
+      "Matorral submontano",
+      "Bosque espinoso de transición",
+      "Pastizal arbolado"
+    ],
+
+    "altitud_min_m": 200,
+    "altitud_max_m": 2200
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional",
+    "tolerante_frio"
+  ],
+
+  "rol_ecologico": [
+    "estructural",
+    "especie_clave",
+    "ingeniera_ecosistema",
+    "nodriza",
+    "frugifera",
+    "hospedera"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": false,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "alta",
+      "heladas": "alta",
+      "calor": "alta",
+      "salinidad": "baja_media",
+      "inundacion": "baja",
+      "sombra": "media"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "lenta_media",
+      "mejora_materia_organica": "alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "media_alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_bosque_maduro",
+      "formacion_de_dosel",
+      "captura_carbono",
+      "recuperacion_habitat_fauna",
+      "regulacion_microclima",
+      "proteccion_suelo"
+    ],
+
+    "sitios_recomendados": [
+      "sierras_bajas",
+      "laderas_semiaridas",
+      "zonas_de_transicion_matorral_bosque",
+      "suelos_calcareos",
+      "pastizales_arbolados"
+    ],
+
+    "no_recomendado": [
+      "humedales_permanentes",
+      "suelos_salinos_extremos",
+      "zonas_tropicales_humedas"
+    ],
+
+    "especies_facilitadas": [
+      "arbustos_de_sotobosque",
+      "herbaceas_nativas",
+      "gramineas_nativas",
+      "hongos_micorrizicos"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos",
+      "hongos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "sucesion_ecologica": "muy_alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "muy_alta",
+    "servicios_ecosistemicos": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_del_genero_Quercus",
+      "bosques_de_encino_del_noreste_de_Mexico",
+      "ecologia_funcional_de_Fagaceae",
+      "restauracion_de_ecosistemas_semiaridos"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "quercus_polymorpha",
+
+  "nombre_comun": [
+    "encino blanco",
+    "encino roble",
+    "encino hoja ancha"
+  ],
+
+  "nombre_cientifico": "Quercus polymorpha",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fagales",
+    "familia": "Fagaceae",
+    "genero": "Quercus",
+    "especie": "polymorpha"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 30,
+    "diametro_copa_m": 18,
+    "diametro_tronco_cm": 120,
+    "longevidad_anios": 250
+  },
+
+  "ecologia": {
+    "agua": "media",
+    "sol": "pleno_media_sombra",
+    "crecimiento": "medio",
+    "captura_carbono": "muy_alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Bosque de encino",
+      "Bosque de encino-pino",
+      "Bosque mesófilo de montaña de transición",
+      "Matorral submontano"
+    ],
+
+    "altitud_min_m": 500,
+    "altitud_max_m": 2500
+  },
+
+  "adaptaciones_ecologicas": [
+    "tolerante_sequia_estacional",
+    "tolerante_frio"
+  ],
+
+  "rol_ecologico": [
+    "estructural",
+    "especie_clave",
+    "ingeniera_ecosistema",
+    "nodriza",
+    "frugifera",
+    "hospedera"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": "semicaducifolia",
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "media",
+      "heladas": "media_alta",
+      "calor": "media_alta",
+      "salinidad": "baja",
+      "inundacion": "baja",
+      "sombra": "media"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "muy_alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "muy_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "media_alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_bosque_maduro",
+      "formacion_de_dosel",
+      "captura_carbono",
+      "regulacion_microclima",
+      "recuperacion_habitat_fauna",
+      "proteccion_hidrologica"
+    ],
+
+    "sitios_recomendados": [
+      "laderas_montañosas",
+      "cañadas",
+      "zonas_subhumedas",
+      "suelos_profundos",
+      "transiciones_bosque_matorral"
+    ],
+
+    "no_recomendado": [
+      "zonas_aridas_extremas",
+      "suelos_salinos",
+      "sitios_sin_humedad_estacional"
+    ],
+
+    "especies_facilitadas": [
+      "arbustos_de_sotobosque",
+      "herbaceas_nativas",
+      "hongos_micorrizicos",
+      "fauna_forestal"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos",
+      "hongos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "muy_alta",
+    "sucesion_ecologica": "muy_alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_del_genero_Quercus",
+      "bosques_de_encino_mexicanos",
+      "dinamica_de_bosques_maduros",
+      "ecologia_funcional_de_Fagaceae"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "pinus_cembroides",
+
+  "nombre_comun": [
+    "pino piñonero",
+    "pino piñón",
+    "piñonero mexicano",
+    "pino cembroides"
+  ],
+
+  "nombre_cientifico": "Pinus cembroides",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Pinopsida",
+    "orden": "Pinales",
+    "familia": "Pinaceae",
+    "genero": "Pinus",
+    "especie": "cembroides"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 15,
+    "diametro_copa_m": 10,
+    "diametro_tronco_cm": 60,
+    "longevidad_anios": 300
+  },
+
+  "ecologia": {
+    "agua": "baja_media",
+    "sol": "pleno",
+    "crecimiento": "lento",
+    "captura_carbono": "alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Bosque de pino piñonero",
+      "Bosque de pino-encino",
+      "Matorral montano",
+      "Zonas semiáridas de montaña"
+    ],
+
+    "altitud_min_m": 1200,
+    "altitud_max_m": 3000
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional",
+    "tolerante_frio"
+  ],
+
+  "rol_ecologico": [
+    "estructural",
+    "especie_clave",
+    "ingeniera_ecosistema",
+    "nodriza",
+    "frugifera"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": false,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "alta",
+      "heladas": "muy_alta",
+      "calor": "alta",
+      "salinidad": "baja",
+      "inundacion": "baja",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "bajo",
+      "despues_poda": false
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media",
+      "capacidad_sombra": "media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "lenta",
+      "mejora_materia_organica": "alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "media_alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "roedores"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "bajo"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_bosque_montano",
+      "formacion_de_dosel",
+      "captura_carbono",
+      "proteccion_suelo",
+      "recuperacion_de_habitat",
+      "regulacion_microclima"
+    ],
+
+    "sitios_recomendados": [
+      "sierras_semiaridas",
+      "laderas_montañosas",
+      "suelos_pobres",
+      "suelos_pedregosos",
+      "zonas_de_transicion_pino_encino"
+    ],
+
+    "no_recomendado": [
+      "zonas_bajas_calidas",
+      "humedales",
+      "sitios_con_sombra_densa"
+    ],
+
+    "especies_facilitadas": [
+      "encinos",
+      "arbustos_de_sotobosque",
+      "herbaceas_nativas",
+      "hongos_micorrizicos"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "roedores",
+      "insectos",
+      "hongos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "sucesion_ecologica": "alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "muy_alta",
+    "servicios_ecosistemicos": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Pinaceae_en_Mexico",
+      "bosques_de_pino_pinonero",
+      "restauracion_de_ecosistemas_montanos_semiaridos",
+      "ecologia_funcional_de_Pinus"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "juniperus_monosperma",
+
+  "nombre_comun": [
+    "cedro",
+    "sabino",
+    "táscate",
+    "junípero"
+  ],
+
+  "nombre_cientifico": "Juniperus monosperma",
+
+  "tipo": "arbol_arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Pinopsida",
+    "orden": "Pinales",
+    "familia": "Cupressaceae",
+    "genero": "Juniperus",
+    "especie": "monosperma"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 15,
+    "diametro_copa_m": 10,
+    "diametro_tronco_cm": 80,
+    "longevidad_anios": 300
+  },
+
+  "ecologia": {
+    "agua": "muy_baja",
+    "sol": "pleno",
+    "crecimiento": "lento",
+    "captura_carbono": "alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral de Juniperus",
+      "Bosque de pino-encino",
+      "Bosque abierto semiárido",
+      "Matorral xerófilo montano"
+    ],
+
+    "altitud_min_m": 1000,
+    "altitud_max_m": 3000
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional",
+    "tolerante_frio"
+  ],
+
+  "rol_ecologico": [
+    "estructural",
+    "especie_clave",
+    "ingeniera_ecosistema",
+    "nodriza",
+    "frugifera",
+    "hospedera"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia_tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel_bajo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": false,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "muy_alta",
+      "calor": "alta",
+      "salinidad": "media",
+      "inundacion": "baja",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "bajo",
+      "despues_poda": "medio"
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "media_alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media_alta",
+      "descomposicion_hojarasca": "lenta",
+      "mejora_materia_organica": "alta"
+    },
+
+    "reproduccion": {
+      "floracion": "baja",
+      "produccion_semillas": "media",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "bajo"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_bosque_semiarido",
+      "formacion_de_microhabitat",
+      "control_erosion",
+      "captura_carbono",
+      "recuperacion_habitat_fauna",
+      "regulacion_microclima"
+    ],
+
+    "sitios_recomendados": [
+      "laderas_semiaridas",
+      "sierras_bajas",
+      "suelos_pobres",
+      "suelos_pedregosos",
+      "zonas_de_transicion_matorral_bosque"
+    ],
+
+    "no_recomendado": [
+      "humedales",
+      "zonas_tropicales_humedas",
+      "sitios_con_sombra_densa"
+    ],
+
+    "especies_facilitadas": [
+      "encinos",
+      "pinos",
+      "arbustos_de_sotobosque",
+      "herbaceas_nativas"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "alta",
+    "sucesion_ecologica": "media_alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Cupressaceae",
+      "bosques_semiaridos_del_norte_de_Mexico",
+      "ecologia_funcional_de_Juniperus",
+      "restauracion_de_ecosistemas_montanos"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "prosopis_laevigata",
+
+  "nombre_comun": [
+    "mezquite",
+    "mezquite liso",
+    "mezquite blanco",
+    "mezquite dulce"
+  ],
+
+  "nombre_cientifico": "Prosopis laevigata",
+
+  "tipo": "arbol_arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fabales",
+    "familia": "Fabaceae",
+    "genero": "Prosopis",
+    "especie": "laevigata"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 12,
+    "diametro_copa_m": 15,
+    "diametro_tronco_cm": 80,
+    "longevidad_anios": 150
+  },
+
+  "ecologia": {
+    "agua": "muy_baja",
+    "sol": "pleno",
+    "crecimiento": "medio",
+    "captura_carbono": "alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral xerófilo",
+      "Matorral espinoso tamaulipeco",
+      "Bosque espinoso",
+      "Pastizal semiárido",
+      "Vegetación de zonas áridas"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 2300
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional"
+  ],
+
+  "rol_ecologico": [
+    "pionera",
+    "colonizadora",
+    "nodriza",
+    "fijadora_suelo",
+    "fijadora_nitrogeno",
+    "ingeniera_ecosistema",
+    "estructural",
+    "melifera",
+    "frugifera",
+    "atrayente_polinizadores"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "permanente",
+    "estrato": "dosel"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": true,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "media",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "media",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "muy_profunda",
+      "expansion_lateral": "muy_alta"
+    },
+
+    "copa": {
+      "densidad": "media",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "muy_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "abundante",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "mamiferos",
+        "aves",
+        "ganado"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "alto"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "control_erosion",
+      "estabilizacion_suelo",
+      "recuperacion_suelos_degradados",
+      "captura_carbono",
+      "formacion_de_microclima",
+      "recuperacion_de_matorral"
+    ],
+
+    "sitios_recomendados": [
+      "suelos_degradados",
+      "laderas",
+      "planicies_aridas",
+      "suelos_pedregosos",
+      "pastizales_degradados",
+      "zonas_con_erosion"
+    ],
+
+    "no_recomendado": [
+      "bosques_humedos",
+      "sitios_con_sombra_densa",
+      "humedales_permanentes"
+    ],
+
+    "especies_facilitadas": [
+      "arbustos_xerofilos",
+      "cactaceas",
+      "gramineas_nativas",
+      "herbaceas_perennes"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "avispas",
+      "mariposas"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "sucesion_ecologica": "alta",
+    "rasgos_funcionales": "muy_alta",
+    "compatibilidad_restauracion": "muy_alta",
+    "servicios_ecosistemicos": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Prosopis_laevigata",
+      "ecologia_funcional_de_Fabaceae",
+      "restauracion_de_zonas_aridas_y_semiaridas",
+      "servicios_ecosistemicos_de_los_mezquites"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "acacia_rigidula",
+
+  "nombre_comun": [
+    "chaparro prieto",
+    "acacia negra",
+    "chaparro"
+  ],
+
+  "nombre_cientifico": "Acacia rigidula",
+
+  "tipo": "arbusto_arbol_pequeno",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fabales",
+    "familia": "Fabaceae",
+    "genero": "Acacia",
+    "especie": "rigidula"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 8,
+    "diametro_copa_m": 6,
+    "diametro_tronco_cm": 30,
+    "longevidad_anios": 80
+  },
+
+  "ecologia": {
+    "agua": "muy_baja",
+    "sol": "pleno",
+    "crecimiento": "medio",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral espinoso tamaulipeco",
+      "Matorral xerófilo",
+      "Bosque espinoso",
+      "Pastizal semiárido"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 1200
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional"
+  ],
+
+  "rol_ecologico": [
+    "pionera",
+    "colonizadora",
+    "fijadora_suelo",
+    "fijadora_nitrogeno",
+    "nodriza",
+    "ingeniera_ecosistema",
+    "atrayente_polinizadores",
+    "estructural_arbustiva"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "permanente",
+    "estrato": "arbustivo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": true,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "media",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "baja",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "media_alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media_alta",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media_alta",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "alto"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "recuperacion_de_suelo",
+      "control_erosion",
+      "recuperacion_de_matorral",
+      "formacion_de_microhabitat",
+      "incremento_de_fertilidad"
+    ],
+
+    "sitios_recomendados": [
+      "matorrales_degradados",
+      "suelos_pobres",
+      "zonas_semiaridas",
+      "laderas",
+      "pastizales_degradados"
+    ],
+
+    "no_recomendado": [
+      "bosques_humedos",
+      "zonas_inundables",
+      "sitios_con_sombra_densa"
+    ],
+
+    "especies_facilitadas": [
+      "gramineas_nativas",
+      "cactaceas",
+      "arbustos_secundarios",
+      "herbaceas_perennes"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "avispas",
+      "mariposas"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "sucesion_ecologica": "alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "muy_alta",
+    "servicios_ecosistemicos": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Acacia_rigidula",
+      "matorral_espinoso_tamaulipeco",
+      "ecologia_funcional_de_Fabaceae",
+      "restauracion_de_zonas_semiaridas"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "cercis_canadensis",
+
+  "nombre_comun": [
+    "árbol de Judas",
+    "ciclamor",
+    "redbud",
+    "cercis"
+  ],
+
+  "nombre_cientifico": "Cercis canadensis",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fabales",
+    "familia": "Fabaceae",
+    "genero": "Cercis",
+    "especie": "canadensis"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 12,
+    "diametro_copa_m": 10,
+    "diametro_tronco_cm": 50,
+    "longevidad_anios": 100
+  },
+
+  "ecologia": {
+    "agua": "media",
+    "sol": "pleno_media_sombra",
+    "crecimiento": "medio",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral submontano",
+      "Bosque de encino",
+      "Bosque ripario",
+      "Bosque caducifolio"
+    ],
+
+    "altitud_min_m": 300,
+    "altitud_max_m": 2000
+  },
+
+  "adaptaciones_ecologicas": [
+    "tolerante_sombra_parcial",
+    "tolerante_humedad_estacional"
+  ],
+
+  "rol_ecologico": [
+    "pionera",
+    "colonizadora",
+    "fijadora_suelo",
+    "fijadora_nitrogeno",
+    "nodriza",
+    "ingeniera_ecosistema",
+    "atrayente_polinizadores",
+    "estructural_secundaria"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "temporal_permanente",
+    "estrato": "dosel_bajo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": true,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "media",
+      "heladas": "alta",
+      "calor": "media",
+      "salinidad": "baja",
+      "inundacion": "media",
+      "sombra": "media_alta"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media",
+      "capacidad_sombra": "media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media_alta",
+      "descomposicion_hojarasca": "rapida_media",
+      "mejora_materia_organica": "alta"
+    },
+
+    "reproduccion": {
+      "floracion": "alta",
+      "produccion_semillas": "media_alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "muy_alto"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "recuperacion_de_suelos",
+      "restauracion_submontana",
+      "incremento_de_fertilidad",
+      "formacion_de_microclima",
+      "recuperacion_de_bordes_forestales"
+    ],
+
+    "sitios_recomendados": [
+      "cañadas",
+      "laderas_submontanas",
+      "bordes_de_bosque",
+      "suelos_con_materia_organica",
+      "zonas_con_humedad_estacional"
+    ],
+
+    "no_recomendado": [
+      "zonas_aridas_extremas",
+      "suelos_muy_degradados_sin_humedad",
+      "sitios_con_estrés_hidrico_extremo"
+    ],
+
+    "especies_facilitadas": [
+      "encinos",
+      "arbustos_de_sotobosque",
+      "herbaceas_nativas",
+      "plantas_riparias"
+    ],
+
+    "prioridad_uso": "media_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "mariposas"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "alta",
+    "sucesion_ecologica": "media_alta",
+    "rasgos_funcionales": "alta",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Cercis_canadensis",
+      "ecologia_funcional_de_Fabaceae",
+      "restauracion_de_bosques_submontanos",
+      "interacciones_planta_polinizador"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "cordia_boissieri",
+
+  "nombre_comun": [
+    "anacahuita",
+    "anacahuite",
+    "alacahuite",
+    "cuéramo",
+    "rasca viejo",
+    "siricote",
+    "trompillo"
+  ],
+
+  "nombre_cientifico": "Cordia boissieri",
+
+  "tipo": "arbol_arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Boraginales",
+    "familia": "Cordiaceae",
+    "genero": "Cordia",
+    "especie": "boissieri"
+  },
+
+  "conservacion": {
+    "iucn": {
+      "categoria": "LC",
+      "descripcion": "Preocupación menor"
+    },
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 8,
+    "diametro_copa_m": 7,
+    "diametro_tronco_cm": 40,
+    "longevidad_anios": 80
+  },
+
+  "ecologia": {
+    "agua": "baja_media",
+    "sol": "pleno",
+    "crecimiento": "medio",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral submontano",
+      "Bosque espinoso",
+      "Selva baja caducifolia",
+      "Matorral xerófilo"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 1200
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional"
+  ],
+
+  "rol_ecologico": [
+    "pionera",
+    "colonizadora",
+    "fijadora_suelo",
+    "nodriza",
+    "ingeniera_ecosistema",
+    "atrayente_polinizadores",
+    "frugifera",
+    "estructural_arbustiva"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "permanente",
+    "estrato": "arbustivo_dosel_bajo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "alta",
+      "heladas": "media",
+      "calor": "alta",
+      "salinidad": "media",
+      "inundacion": "baja_media",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media_profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media_alta",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "media_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "alta",
+      "produccion_semillas": "media_alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "muy_alto"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "control_erosion",
+      "recuperacion_de_matorral",
+      "formacion_de_microhabitat",
+      "recuperacion_de_polinizadores",
+      "proteccion_del_suelo"
+    ],
+
+    "sitios_recomendados": [
+      "matorral_degradado",
+      "zonas_semiaridas",
+      "laderas",
+      "bordes_de_bosque",
+      "matorral_submontano"
+    ],
+
+    "no_recomendado": [
+      "bosques_muy_humedos",
+      "zonas_inundables",
+      "sitios_con_sombra_densa"
+    ],
+
+    "especies_facilitadas": [
+      "gramineas_nativas",
+      "arbustos_secundarios",
+      "cactaceas",
+      "herbaceas_perennes"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "mariposas",
+      "colibries"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "alta",
+    "sucesion_ecologica": "media_alta",
+    "rasgos_funcionales": "media",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "alta"
+  },
+
+  "ejemplar_snib": {
+    "llave": "no_proporcionada_en_registro_original",
+    "proyecto": "Naturalista",
+    "institucion": "CAS California Academy of Sciences",
+    "coleccion": "iNaturalistMX iNaturalist México",
+
+    "estado": "Nuevo León",
+    "municipio": "Galeana",
+    "localidad": "Pablillo, Galeana",
+
+    "latitud": 24.519092,
+    "longitud": -99.992151,
+    "datum": "WGS84",
+    "altitud_m": 2599,
+
+    "fecha_colecta": "2016-06-29",
+    "colector": "Manuel Nevárez",
+
+    "determinador": "Manuel Nevárez",
+    "fecha_determinacion": "2016-07-01",
+
+    "licencia": "CC-BY-NC"
+  },
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia",
+      "ubicacion",
+      "fecha_colecta"
+    ],
+
+    "literatura": [
+      "ecologia_de_Cordia_boissieri",
+      "vegetacion_del_noreste_de_Mexico",
+      "ecologia_funcional_de_Boraginaceae"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "helietta_parvifolia",
+
+  "nombre_comun": [
+    "barreta",
+    "brasilillo",
+    "barreta del monte"
+  ],
+
+  "nombre_cientifico": "Helietta parvifolia",
+
+  "tipo": "arbol_arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Sapindales",
+    "familia": "Rutaceae",
+    "genero": "Helietta",
+    "especie": "parvifolia"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 12,
+    "diametro_copa_m": 8,
+    "diametro_tronco_cm": 50,
+    "longevidad_anios": 120
+  },
+
+  "ecologia": {
+    "agua": "baja_media",
+    "sol": "pleno",
+    "crecimiento": "lento_medio",
+    "captura_carbono": "media_alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral submontano",
+      "Bosque espinoso",
+      "Bosque tropical caducifolio",
+      "Matorral xerófilo"
+    ],
+
+    "altitud_min_m": 100,
+    "altitud_max_m": 1500
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional"
+  ],
+
+  "rol_ecologico": [
+    "colonizadora",
+    "fijadora_suelo",
+    "nodriza",
+    "ingeniera_ecosistema",
+    "estructural_arbustiva",
+    "atrayente_fauna"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia",
+    "persistencia": "permanente",
+    "estrato": "arbustivo_dosel_bajo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "alta",
+      "heladas": "media",
+      "calor": "alta",
+      "salinidad": "baja_media",
+      "inundacion": "baja",
+      "sombra": "media"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media_profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media_alta",
+      "capacidad_sombra": "media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "media_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "media",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "control_erosion",
+      "recuperacion_de_matorral_submontano",
+      "formacion_de_microhabitat",
+      "incremento_de_cobertura_vegetal",
+      "estabilizacion_de_laderas"
+    ],
+
+    "sitios_recomendados": [
+      "laderas",
+      "zonas_calcareas",
+      "matorrales_degradados",
+      "transiciones_matorral_bosque",
+      "suelos_secos_con_buen_drenaje"
+    ],
+
+    "no_recomendado": [
+      "zonas_inundables",
+      "suelos_muy_humedos",
+      "sitios_extremadamente_degradados_sin_suelo"
+    ],
+
+    "especies_facilitadas": [
+      "encinos",
+      "arbustos_secundarios",
+      "gramineas_nativas",
+      "herbaceas_perennes"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "media_alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "media_alta",
+    "sucesion_ecologica": "media",
+    "rasgos_funcionales": "media",
+    "compatibilidad_restauracion": "alta",
+    "servicios_ecosistemicos": "media_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_comun",
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Helietta_parvifolia",
+      "matorral_submontano_del_noreste_de_Mexico",
+      "ecologia_funcional_de_Rutaceae",
+      "restauracion_ecologica_de_zonas_semiaridas"
+    ],
+
+    "inferido": [
+      "altura_max_m",
+      "diametro_copa_m",
+      "diametro_tronco_cm",
+      "longevidad_anios",
+      "agua",
+      "sol",
+      "crecimiento",
+      "captura_carbono",
+      "adaptaciones_ecologicas",
+      "rol_ecologico",
+      "sucesion_ecologica",
+      "rasgos_funcionales",
+      "compatibilidad_restauracion",
+      "polinizadores",
+      "fauna_asociada",
+      "fijacion_suelo",
+      "control_erosion",
+      "valor_para_restauracion",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "zanthoxylum_fagara",
+
+  "nombre_comun": [
+    "colima",
+    "limoncillo",
+    "uña de gato",
+    "naranjillo"
+  ],
+
+  "nombre_cientifico": "Zanthoxylum fagara",
+
+  "tipo": "arbusto_arbol_pequeno",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Sapindales",
+    "familia": "Rutaceae",
+    "genero": "Zanthoxylum",
+    "especie": "fagara"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 10,
+    "diametro_copa_m": 7,
+    "diametro_tronco_cm": 35,
+    "longevidad_anios": 100
+  },
+
+  "ecologia": {
+    "agua": "baja_media",
+    "sol": "pleno_media_sombra",
+    "crecimiento": "medio",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral submontano",
+      "Matorral espinoso tamaulipeco",
+      "Bosque tropical caducifolio",
+      "Bosque de transición"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 1500
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional"
+  ],
+
+  "rol_ecologico": [
+    "nodriza",
+    "facilitadora",
+    "ingeniera_ecosistema",
+    "estructural_arbustiva",
+    "refugio_fauna",
+    "frugifera",
+    "hospedera"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia",
+    "persistencia": "permanente",
+    "estrato": "arbustivo_dosel_bajo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": "semicaducifolia",
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "alta",
+      "heladas": "media",
+      "calor": "alta",
+      "salinidad": "media",
+      "inundacion": "baja",
+      "sombra": "media_alta"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media_profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "media_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "media_alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "mecanismos_de_facilitacion": {
+    "sombra_para_regeneracion": true,
+    "reduccion_temperatura_suelo": true,
+    "retencion_humedad": true,
+    "acumulacion_materia_organica": true,
+    "proteccion_contra_herbivoria": true,
+    "refugio_para_semillas": true
+  },
+
+  "especies_facilitadas": [
+    "Quercus",
+    "Juniperus",
+    "Cordia",
+    "arbustos secundarios",
+    "herbaceas perennes"
+  ],
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "recuperacion_de_matorral",
+      "formacion_de_microhabitat",
+      "incremento_de_biodiversidad",
+      "proteccion_de_regeneracion_natural"
+    ],
+
+    "sitios_recomendados": [
+      "matorral_submontano",
+      "bordes_de_bosque",
+      "laderas",
+      "zonas_semiaridas"
+    ],
+
+    "no_recomendado": [
+      "zonas_inundables",
+      "sitios_extremadamente_aridos_sin_cobertura"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "media_alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "alta",
+    "mecanismos_facilitacion": "alta",
+    "compatibilidad_restauracion": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Zanthoxylum_fagara",
+      "matorrales_y_bosques_secos_del_noreste_de_Mexico",
+      "interacciones_planta_fauna"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_de_facilitacion",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "ebenopsis_ebano",
+
+  "nombre_comun": [
+    "ébano",
+    "ébano mexicano",
+    "palo de ébano"
+  ],
+
+  "nombre_cientifico": "Ebenopsis ebano",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fabales",
+    "familia": "Fabaceae",
+    "genero": "Ebenopsis",
+    "especie": "ebano"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 15,
+    "diametro_copa_m": 12,
+    "diametro_tronco_cm": 70,
+    "longevidad_anios": 150
+  },
+
+  "ecologia": {
+    "agua": "baja",
+    "sol": "pleno",
+    "crecimiento": "lento_medio",
+    "captura_carbono": "alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral espinoso tamaulipeco",
+      "Bosque espinoso",
+      "Selva baja caducifolia",
+      "Matorral submontano"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 800
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional"
+  ],
+
+  "rol_ecologico": [
+    "nodriza",
+    "facilitadora",
+    "fijadora_nitrogeno",
+    "fijadora_suelo",
+    "ingeniera_ecosistema",
+    "estructural",
+    "refugio_fauna",
+    "frugifera"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia_tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": true,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "media",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "baja_media",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "muy_alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "muy_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media_alta",
+      "produccion_semillas": "media_alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "alto"
+    }
+  },
+
+  "mecanismos_de_facilitacion": {
+    "sombra_para_regeneracion": true,
+    "reduccion_temperatura_suelo": true,
+    "retencion_humedad": true,
+    "acumulacion_materia_organica": true,
+    "enriquecimiento_nitrogeno": true,
+    "proteccion_contra_herbivoria": true
+  },
+
+  "especies_facilitadas": [
+    "Prosopis",
+    "Cordia",
+    "Forestiera",
+    "Quercus",
+    "arbustos secundarios",
+    "herbaceas nativas"
+  ],
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "recuperacion_de_matorral",
+      "formacion_de_islas_de_fertilidad",
+      "captura_carbono",
+      "mejora_del_suelo",
+      "recuperacion_de_habitat_fauna"
+    ],
+
+    "sitios_recomendados": [
+      "matorral_espinoso_tamaulipeco",
+      "zonas_semiaridas",
+      "suelos_pobres",
+      "planicies_y_lomerios"
+    ],
+
+    "no_recomendado": [
+      "bosques_humedos",
+      "sitios_con_sombra_densa",
+      "zonas_frías_de_montaña"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "abejorros",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "alta",
+    "mecanismos_facilitacion": "alta",
+    "compatibilidad_restauracion": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Ebenopsis_ebano",
+      "matorral_espinoso_tamaulipeco",
+      "ecologia_funcional_de_Fabaceae",
+      "islas_de_fertilidad_en_ambientes_aridos"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_de_facilitacion",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "celtis_pallida",
+
+  "nombre_comun": [
+    "granjeno",
+    "acebuche",
+    "uña de gato",
+    "garabato"
+  ],
+
+  "nombre_cientifico": "Celtis pallida",
+
+  "tipo": "arbusto_arbol_pequeno",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Rosales",
+    "familia": "Cannabaceae",
+    "genero": "Celtis",
+    "especie": "pallida"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 6,
+    "diametro_copa_m": 5,
+    "diametro_tronco_cm": 30,
+    "longevidad_anios": 80
+  },
+
+  "ecologia": {
+    "agua": "baja",
+    "sol": "pleno_media_sombra",
+    "crecimiento": "medio",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral espinoso tamaulipeco",
+      "Matorral submontano",
+      "Bosque espinoso",
+      "Pastizales semiáridos"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 1500
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional"
+  ],
+
+  "rol_ecologico": [
+    "nodriza",
+    "facilitadora",
+    "ingeniera_ecosistema",
+    "refugio_fauna",
+    "frugifera",
+    "estructural_arbustiva"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "permanente",
+    "estrato": "arbustivo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "media",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "baja",
+      "sombra": "media"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media_profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "media"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "mecanismos_de_facilitacion": {
+    "sombra_para_regeneracion": true,
+    "reduccion_temperatura_suelo": true,
+    "retencion_humedad": true,
+    "acumulacion_materia_organica": true,
+    "proteccion_contra_herbivoria": true,
+    "refugio_para_semillas": true
+  },
+
+  "especies_facilitadas": [
+    "Prosopis",
+    "Acacia",
+    "Cordia",
+    "Quercus",
+    "gramineas_nativas",
+    "herbaceas_perennes"
+  ],
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "recuperacion_de_matorral",
+      "aumento_de_supervivencia_de_plántulas",
+      "incremento_de_biodiversidad",
+      "formacion_de_microhabitat",
+      "control_erosion"
+    ],
+
+    "sitios_recomendados": [
+      "matorral_degradado",
+      "laderas",
+      "zonas_semiaridas",
+      "bordes_de_bosque"
+    ],
+
+    "no_recomendado": [
+      "zonas_inundables",
+      "bosques_muy_humedos"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "alta",
+    "mecanismos_facilitacion": "alta",
+    "compatibilidad_restauracion": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Celtis_pallida",
+      "matorral_espinoso_tamaulipeco",
+      "interacciones_planta_fauna",
+      "facilitacion_en_ecosistemas_secos"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_de_facilitacion",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "taxodium_mucronatum",
+
+  "nombre_comun": [
+    "ahuehuete",
+    "sabino",
+    "ciprés mexicano",
+    "árbol de agua"
+  ],
+
+  "nombre_cientifico": "Taxodium mucronatum",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Pinopsida",
+    "orden": "Pinales",
+    "familia": "Cupressaceae",
+    "genero": "Taxodium",
+    "especie": "mucronatum"
+  },
+
+  "conservacion": {
+    "iucn": {
+      "categoria": "LC",
+      "descripcion": "Preocupación menor"
+    },
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 40,
+    "diametro_copa_m": 20,
+    "diametro_tronco_cm": 500,
+    "longevidad_anios": 1000
+  },
+
+  "ecologia": {
+    "agua": "alta",
+    "sol": "pleno",
+    "crecimiento": "medio",
+    "captura_carbono": "muy_alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Bosque de galería",
+      "Vegetación riparia",
+      "Bosque ribereño",
+      "Márgenes de ríos y arroyos"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 2500
+  },
+
+  "adaptaciones_ecologicas": [
+    "riparia",
+    "tolerante_inundacion_temporal",
+    "adaptada_a_suelos_hidromorfos"
+  ],
+
+  "rol_ecologico": [
+    "riparia",
+    "estructural",
+    "ingeniera_ecosistema",
+    "fijadora_suelo",
+    "control_erosion",
+    "nodriza",
+    "generadora_microclima",
+    "refugio_fauna"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia_tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel_alto"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "media",
+      "heladas": "alta",
+      "calor": "alta",
+      "salinidad": "baja_media",
+      "inundacion": "muy_alta",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "muy_profunda",
+      "expansion_lateral": "muy_alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "muy_alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "lenta_media",
+      "mejora_materia_organica": "muy_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "media",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "agua"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "bajo"
+    }
+  },
+
+  "mecanismos_ecologicos_riparios": {
+    "estabilizacion_margenes": true,
+    "reduccion_erosion_hidrica": true,
+    "sombreado_de_cuerpos_de_agua": true,
+    "regulacion_temperatura_agua": true,
+    "retencion_sedimentos": true,
+    "creacion_habitat_acuatico": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_riberas",
+      "recuperacion_de_corredores_biologicos",
+      "control_de_erosion_hidrica",
+      "recuperacion_de_humedales",
+      "captura_carbono"
+    ],
+
+    "sitios_recomendados": [
+      "rios",
+      "arroyos_permanentes",
+      "manantiales",
+      "bordes_de_lagunas",
+      "zonas_con_nivel_freatico_alto"
+    ],
+
+    "no_recomendado": [
+      "zonas_aridas_sin_acceso_al_agua",
+      "suelos_excesivamente_secos"
+    ],
+
+    "especies_facilitadas": [
+      "Salix",
+      "Populus",
+      "vegetacion_riparia_herbacea",
+      "arbustos_de_ribera"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "anfibios",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "muy_alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "mecanismos_riparios": "muy_alta",
+    "compatibilidad_restauracion": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Taxodium_mucronatum",
+      "bosques_de_galeria_mexicanos",
+      "restauracion_ecologica_riparia",
+      "ingenieria_ecosistemica_en_riberas"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_riparios",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "salix_nigra",
+
+  "nombre_comun": [
+    "sauce negro",
+    "sauce de río",
+    "sauce"
+  ],
+
+  "nombre_cientifico": "Salix nigra",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Malpighiales",
+    "familia": "Salicaceae",
+    "genero": "Salix",
+    "especie": "nigra"
+  },
+
+  "conservacion": {
+    "iucn": {
+      "categoria": "LC",
+      "descripcion": "Preocupación menor"
+    },
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 25,
+    "diametro_copa_m": 15,
+    "diametro_tronco_cm": 100,
+    "longevidad_anios": 100
+  },
+
+  "ecologia": {
+    "agua": "muy_alta",
+    "sol": "pleno",
+    "crecimiento": "rapido",
+    "captura_carbono": "alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Bosque de galería",
+      "Vegetación riparia",
+      "Márgenes de ríos",
+      "Humedales temporales"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 2000
+  },
+
+  "adaptaciones_ecologicas": [
+    "riparia",
+    "tolerante_inundacion",
+    "colonizadora_de_sedimentos_humedos"
+  ],
+
+  "rol_ecologico": [
+    "riparia",
+    "pionera",
+    "colonizadora",
+    "fijadora_suelo",
+    "control_erosion",
+    "ingeniera_ecosistema",
+    "nodriza",
+    "generadora_microclima"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "permanente",
+    "estrato": "dosel"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "baja_media",
+      "heladas": "alta",
+      "calor": "media_alta",
+      "salinidad": "baja",
+      "inundacion": "muy_alta",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": "muy_alto"
+    },
+
+    "raiz": {
+      "profundidad": "media",
+      "expansion_lateral": "muy_alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "rapida",
+      "mejora_materia_organica": "alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "viento",
+        "agua"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "alto"
+    }
+  },
+
+  "mecanismos_ecologicos_riparios": {
+    "estabilizacion_margenes": true,
+    "reduccion_erosion_hidrica": true,
+    "retencion_sedimentos": true,
+    "sombreado_de_cuerpos_de_agua": true,
+    "regulacion_microclima": true,
+    "recuperacion_de_suelos_aluviales": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_riberas",
+      "control_de_erosion",
+      "recuperacion_de_corredores_hidricos",
+      "formacion_de_sombra_riparia",
+      "recuperacion_de_habitat"
+    ],
+
+    "sitios_recomendados": [
+      "orillas_de_rio",
+      "arroyos_permanentes",
+      "zonas_aluviales",
+      "margenes_con_sedimentos_recientes"
+    ],
+
+    "no_recomendado": [
+      "zonas_secas_sin_humedad",
+      "suelos_drenados_excesivamente"
+    ],
+
+    "especies_facilitadas": [
+      "Taxodium_mucronatum",
+      "Populus",
+      "vegetacion_riparia",
+      "herbaceas_de_humedal"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "anfibios",
+      "reptiles",
+      "mamiferos",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "mecanismos_riparios": "muy_alta",
+    "compatibilidad_restauracion": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Salix_nigra",
+      "restauracion_de_ecosistemas_riparios",
+      "ingenieria_ecosistemica_de_sauces"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_riparios",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "platanus_mexicana",
+
+  "nombre_comun": [
+    "sicomoro mexicano",
+    "plátano mexicano",
+    "álamo de río",
+    "haya de río"
+  ],
+
+  "nombre_cientifico": "Platanus mexicana",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Proteales",
+    "familia": "Platanaceae",
+    "genero": "Platanus",
+    "especie": "mexicana"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 40,
+    "diametro_copa_m": 25,
+    "diametro_tronco_cm": 200,
+    "longevidad_anios": 300
+  },
+
+  "ecologia": {
+    "agua": "alta",
+    "sol": "pleno",
+    "crecimiento": "medio_rapido",
+    "captura_carbono": "muy_alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Bosque de galería",
+      "Bosque ripario",
+      "Bosque mesófilo de montaña",
+      "Cañadas húmedas"
+    ],
+
+    "altitud_min_m": 300,
+    "altitud_max_m": 2200
+  },
+
+  "adaptaciones_ecologicas": [
+    "riparia",
+    "tolerante_a_suelos_humedos",
+    "adaptada_a_corrientes_permanentes"
+  ],
+
+  "rol_ecologico": [
+    "riparia",
+    "estructural",
+    "ingeniera_ecosistema",
+    "fijadora_suelo",
+    "control_erosion",
+    "generadora_microclima",
+    "nodriza",
+    "refugio_fauna"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia_tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel_alto"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "media",
+      "heladas": "media_alta",
+      "calor": "media_alta",
+      "salinidad": "baja",
+      "inundacion": "alta",
+      "sombra": "baja_media"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "muy_alta"
+    },
+
+    "copa": {
+      "densidad": "muy_alta",
+      "capacidad_sombra": "muy_alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "muy_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "viento",
+        "agua"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "mecanismos_ecologicos_riparios": {
+    "estabilizacion_margenes": true,
+    "reduccion_erosion_hidrica": true,
+    "retencion_sedimentos": true,
+    "sombreado_de_cuerpos_de_agua": true,
+    "regulacion_microclima": true,
+    "proteccion_de_cauces": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_bosques_de_galeria",
+      "recuperacion_de_cañadas",
+      "control_de_erosion_hidrica",
+      "recuperacion_de_microclimas",
+      "captura_carbono"
+    ],
+
+    "sitios_recomendados": [
+      "riberas_de_rio",
+      "arroyos_permanentes",
+      "cañadas_humedas",
+      "zonas_montanas_con_agua"
+    ],
+
+    "no_recomendado": [
+      "zonas_aridas_sin_humedad",
+      "suelos_pobres_y_secos"
+    ],
+
+    "especies_facilitadas": [
+      "Taxodium_mucronatum",
+      "Salix",
+      "Quercus_riparios",
+      "vegetacion_de_sotobosque"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "anfibios",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "muy_alta",
+    "mecanismos_riparios": "muy_alta",
+    "compatibilidad_restauracion": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Platanus_mexicana",
+      "bosques_de_galeria_mexicanos",
+      "restauracion_riparia",
+      "ingenieria_ecosistemica_de_arboles_ribereños"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_riparios",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "baccharis_salicifolia",
+
+  "nombre_comun": [
+    "jarilla",
+    "jara",
+    "romerillo de agua"
+  ],
+
+  "nombre_cientifico": "Baccharis salicifolia",
+
+  "tipo": "arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Asterales",
+    "familia": "Asteraceae",
+    "genero": "Baccharis",
+    "especie": "salicifolia"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 4,
+    "diametro_copa_m": 3,
+    "diametro_tronco_cm": 15,
+    "longevidad_anios": 20
+  },
+
+  "ecologia": {
+    "agua": "media_alta",
+    "sol": "pleno",
+    "crecimiento": "rapido",
+    "captura_carbono": "baja_media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Vegetación riparia",
+      "Bosque de galería",
+      "Márgenes de ríos",
+      "Arroyos temporales",
+      "Humedales"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 3000
+  },
+
+  "adaptaciones_ecologicas": [
+    "riparia",
+    "colonizadora_de_suelos_revueltos",
+    "tolerante_a_inundacion_temporal"
+  ],
+
+  "rol_ecologico": [
+    "riparia",
+    "pionera",
+    "colonizadora",
+    "fijadora_suelo",
+    "control_erosion",
+    "facilitadora",
+    "nodriza",
+    "atrayente_polinizadores"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana",
+    "persistencia": "temporal_permanente",
+    "estrato": "arbustivo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": "semicaducifolia",
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "media",
+      "heladas": "media",
+      "calor": "alta",
+      "salinidad": "media",
+      "inundacion": "alta",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": true,
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media",
+      "capacidad_sombra": "media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "rapida",
+      "mejora_materia_organica": "media"
+    },
+
+    "reproduccion": {
+      "floracion": "muy_alta",
+      "produccion_semillas": "muy_alta",
+      "regeneracion_natural": "muy_alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "viento"
+      ],
+
+      "refugio_fauna": "medio_alto",
+      "valor_melifero": "muy_alto"
+    }
+  },
+
+  "mecanismos_ecologicos_riparios": {
+    "colonizacion_bancos_sedimento": true,
+    "estabilizacion_margenes": true,
+    "reduccion_erosion_hidrica": true,
+    "retencion_sedimentos": true,
+    "proteccion_de_plantulas": true,
+    "creacion_microhabitat": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "recuperacion_temprana_de_riberas",
+      "estabilizacion_de_suelos_aluviales",
+      "control_de_erosion",
+      "facilitacion_de_sucesion_ecologica",
+      "recuperacion_de_polinizadores"
+    ],
+
+    "sitios_recomendados": [
+      "orillas_de_rio",
+      "bancos_de_arena",
+      "zonas_con_inundacion_temporal",
+      "arroyos_degradados"
+    ],
+
+    "no_recomendado": [
+      "sitios_muy_secos",
+      "bosques_cerrados_con_sombra"
+    ],
+
+    "especies_facilitadas": [
+      "Salix",
+      "Taxodium",
+      "Platanus",
+      "vegetacion_riparia_herbacea"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "mariposas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "insectos",
+      "anfibios"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "media_alta",
+    "ecologia": "alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "mecanismos_riparios": "muy_alta",
+    "compatibilidad_restauracion": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Baccharis_salicifolia",
+      "sucesion_ecologica_en_riberas",
+      "restauracion_de_vegetacion_riparia"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_riparios",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "ficus_cotinifolia",
+
+  "nombre_comun": [
+    "amate",
+    "higuerón",
+    "higuera silvestre"
+  ],
+
+  "nombre_cientifico": "Ficus cotinifolia",
+
+  "tipo": "arbol",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Rosales",
+    "familia": "Moraceae",
+    "genero": "Ficus",
+    "especie": "cotinifolia"
+  },
+
+  "conservacion": {
+    "iucn": {
+      "categoria": "LC",
+      "descripcion": "Preocupación menor"
+    },
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 25,
+    "diametro_copa_m": 20,
+    "diametro_tronco_cm": 150,
+    "longevidad_anios": 200
+  },
+
+  "ecologia": {
+    "agua": "media_alta",
+    "sol": "pleno_media_sombra",
+    "crecimiento": "medio",
+    "captura_carbono": "muy_alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Bosque tropical caducifolio",
+      "Bosque de galería",
+      "Barrancas húmedas",
+      "Selva baja caducifolia"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 1500
+  },
+
+  "adaptaciones_ecologicas": [
+    "riparia_facultativa",
+    "tolerante_a_estacionalidad_hidrica",
+    "adaptada_a_suelos_profundos"
+  ],
+
+  "rol_ecologico": [
+    "riparia_facultativa",
+    "estructural",
+    "ingeniera_ecosistema",
+    "nodriza",
+    "facilitadora",
+    "refugio_fauna",
+    "frugifera",
+    "generadora_microclima",
+    "fijadora_suelo"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia_tardia",
+    "persistencia": "permanente",
+    "estrato": "dosel_alto"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "media_alta",
+      "heladas": "baja_media",
+      "calor": "alta",
+      "salinidad": "baja",
+      "inundacion": "media",
+      "sombra": "media_alta"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "profunda",
+      "expansion_lateral": "muy_alta"
+    },
+
+    "copa": {
+      "densidad": "muy_alta",
+      "capacidad_sombra": "muy_alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "muy_alta",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "muy_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "alta",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "media_alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "mecanismos_ecologicos_riparios": {
+    "estabilizacion_margenes": true,
+    "reduccion_erosion_hidrica": true,
+    "sombreado_de_cuerpos_de_agua": true,
+    "generacion_microclima": true,
+    "retencion_humedad": true,
+    "creacion_habitat": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_bosques_riparios",
+      "recuperacion_de_microclimas",
+      "incremento_de_biodiversidad",
+      "recuperacion_de_corredores_biologicos",
+      "captura_carbono"
+    ],
+
+    "sitios_recomendados": [
+      "barrancas",
+      "cauces_con_humedad_estacional",
+      "bosques_de_galeria",
+      "zonas_de_transicion_humeda"
+    ],
+
+    "no_recomendado": [
+      "zonas_frías",
+      "ambientes_extremadamente_secos",
+      "suelos_pobres_sin_humedad"
+    ],
+
+    "especies_facilitadas": [
+      "Taxodium_mucronatum",
+      "Platanus_mexicana",
+      "arbustos_riparios",
+      "epifitas",
+      "herbaceas_de_sotobosque"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "avispas_figo",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "alta",
+    "habitat": "media_alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "alta",
+    "mecanismos_riparios": "media_alta",
+    "compatibilidad_restauracion": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Ficus_cotinifolia",
+      "interacciones_Ficus_fauna",
+      "bosques_tropicales_secos_y_riparios",
+      "ingenieria_ecosistemica_de_Ficus"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_riparios",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "yucca_filifera",
+
+  "nombre_comun": [
+    "palma china",
+    "izote",
+    "palma de dátil",
+    "yuca"
+  ],
+
+  "nombre_cientifico": "Yucca filifera",
+
+  "tipo": "arbol_suculento",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Liliopsida",
+    "orden": "Asparagales",
+    "familia": "Asparagaceae",
+    "genero": "Yucca",
+    "especie": "filifera"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 12,
+    "diametro_copa_m": 6,
+    "diametro_tronco_cm": 60,
+    "longevidad_anios": 200
+  },
+
+  "ecologia": {
+    "agua": "muy_baja",
+    "sol": "pleno",
+    "crecimiento": "lento",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral xerófilo",
+      "Desierto chihuahuense",
+      "Matorral rosetófilo",
+      "Pastizales áridos"
+    ],
+
+    "altitud_min_m": 500,
+    "altitud_max_m": 2200
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "suculenta",
+    "tolerante_sequia_extrema",
+    "adaptada_a_suelos_pobres"
+  ],
+
+  "rol_ecologico": [
+    "xerofita",
+    "estructural",
+    "ingeniera_ecosistema",
+    "nodriza",
+    "fijadora_suelo",
+    "control_erosion",
+    "refugio_fauna",
+    "generadora_microhabitat"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia_tardia",
+    "persistencia": "permanente",
+    "estrato": "emergente"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": false,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "alta",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "muy_baja",
+      "sombra": "muy_baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "bajo_medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media",
+      "capacidad_sombra": "media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "baja_media",
+      "descomposicion_hojarasca": "lenta",
+      "mejora_materia_organica": "media"
+    },
+
+    "reproduccion": {
+      "floracion": "alta",
+      "produccion_semillas": "media",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "polinizadores_especializados": [
+        "polillas_de_Yucca"
+      ],
+
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "mecanismos_ecologicos_xericos": {
+    "captura_de_agua": true,
+    "reduccion_evaporacion_suelo": true,
+    "proteccion_contra_viento": true,
+    "creacion_islas_recursos": true,
+    "refugio_para_fauna": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_zonas_aridas",
+      "control_de_erosion_eolica",
+      "recuperacion_de_matorral_xerofilo",
+      "formacion_de_microhabitats",
+      "incremento_de_biodiversidad"
+    ],
+
+    "sitios_recomendados": [
+      "desierto_chihuahuense",
+      "laderas_secas",
+      "suelos_calcareos",
+      "zonas_degradadas_aridas"
+    ],
+
+    "no_recomendado": [
+      "zonas_inundables",
+      "suelos_muy_humedos",
+      "sombra_densa"
+    ],
+
+    "especies_facilitadas": [
+      "cactaceas",
+      "Agave",
+      "arbustos xerofitos",
+      "gramineas_aridas"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "polillas_de_Yucca",
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "reptiles",
+      "mamiferos",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "mecanismos_xericos": "muy_alta",
+    "compatibilidad_restauracion": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Yucca_filifera",
+      "desierto_chihuahuense",
+      "ingenieria_ecosistemica_en_ambientes_aridos",
+      "interacciones_Yucca_polinizador"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_xericos",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "dasylirion_texanum",
+
+  "nombre_comun": [
+    "sotol",
+    "sotol texano",
+    "sereque"
+  ],
+
+  "nombre_cientifico": "Dasylirion texanum",
+
+  "tipo": "arbusto_roseta_suculenta",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Liliopsida",
+    "orden": "Asparagales",
+    "familia": "Asparagaceae",
+    "genero": "Dasylirion",
+    "especie": "texanum"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 2.5,
+    "diametro_copa_m": 2,
+    "diametro_tronco_cm": 30,
+    "longevidad_anios": 80
+  },
+
+  "ecologia": {
+    "agua": "muy_baja",
+    "sol": "pleno",
+    "crecimiento": "lento",
+    "captura_carbono": "baja_media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral xerófilo",
+      "Desierto chihuahuense",
+      "Matorral rosetófilo",
+      "Laderas rocosas áridas"
+    ],
+
+    "altitud_min_m": 300,
+    "altitud_max_m": 2000
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "suculenta",
+    "tolerante_sequia_extrema",
+    "adaptada_a_suelos_pedregosos"
+  ],
+
+  "rol_ecologico": [
+    "xerofita",
+    "estructural",
+    "colonizadora_secundaria",
+    "fijadora_suelo",
+    "control_erosion",
+    "ingeniera_ecosistema",
+    "refugio_fauna",
+    "generadora_microhabitat"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "permanente",
+    "estrato": "bajo_medio"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": false,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "alta",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "muy_baja",
+      "sombra": "muy_baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media",
+      "capacidad_sombra": "baja_media"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "baja",
+      "descomposicion_hojarasca": "lenta",
+      "mejora_materia_organica": "media"
+    },
+
+    "reproduccion": {
+      "floracion": "alta",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "polinizadores": [
+        "abejas",
+        "insectos"
+      ],
+
+      "dispersores": [
+        "viento"
+      ],
+
+      "refugio_fauna": "medio_alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "mecanismos_ecologicos_xericos": {
+    "retencion_suelo": true,
+    "reduccion_erosion_eolica": true,
+    "reduccion_escorrentia": true,
+    "creacion_microhabitat": true,
+    "proteccion_de_plantulas": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_matorral_xerofilo",
+      "control_de_erosion",
+      "recuperacion_de_suelos_pedregosos",
+      "incremento_de_cobertura_vegetal",
+      "recuperacion_de_biodiversidad_arida"
+    ],
+
+    "sitios_recomendados": [
+      "laderas_secas",
+      "suelos_calcareos",
+      "zonas_rocosas",
+      "matorral_degradado"
+    ],
+
+    "no_recomendado": [
+      "zonas_inundables",
+      "suelos_arcillosos_humedos",
+      "sombra"
+    ],
+
+    "especies_facilitadas": [
+      "Yucca_filifera",
+      "Agave",
+      "cactaceas",
+      "arbustos_xerofitos"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "reptiles",
+      "aves",
+      "mamiferos",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "alta",
+    "mecanismos_xericos": "alta",
+    "compatibilidad_restauracion": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Dasylirion_texanum",
+      "matorral_xerofilo_mexicano",
+      "restauracion_de_ambientes_aridos",
+      "ecologia_funcional_de_plantas_rosuladas"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_xericos",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "agave_lechuguilla",
+
+  "nombre_comun": [
+    "lechuguilla",
+    "maguey lechuguilla"
+  ],
+
+  "nombre_cientifico": "Agave lechuguilla",
+
+  "tipo": "roseta_suculenta",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Liliopsida",
+    "orden": "Asparagales",
+    "familia": "Asparagaceae",
+    "genero": "Agave",
+    "especie": "lechuguilla"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 1,
+    "diametro_copa_m": 1.5,
+    "diametro_tronco_cm": null,
+    "longevidad_anios": 15
+  },
+
+  "ecologia": {
+    "agua": "extremadamente_baja",
+    "sol": "pleno",
+    "crecimiento": "lento",
+    "captura_carbono": "baja_media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral xerófilo",
+      "Desierto chihuahuense",
+      "Matorral rosetófilo",
+      "Laderas calizas áridas"
+    ],
+
+    "altitud_min_m": 200,
+    "altitud_max_m": 2500
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita_extrema",
+    "suculenta",
+    "adaptada_a_suelos_calcareos",
+    "tolerante_a_sequia_prolongada"
+  ],
+
+  "rol_ecologico": [
+    "xerofita",
+    "estructural_baja",
+    "colonizadora",
+    "fijadora_suelo",
+    "control_erosion",
+    "ingeniera_ecosistema",
+    "generadora_microhabitat",
+    "refugio_fauna"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "permanente",
+    "estrato": "herbaceo_arbustivo"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": false,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "extrema",
+      "heladas": "alta",
+      "calor": "muy_alta",
+      "salinidad": "media",
+      "inundacion": "muy_baja",
+      "sombra": "muy_baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "bajo",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media",
+      "expansion_lateral": "muy_alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "baja"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "baja",
+      "descomposicion_hojarasca": "lenta",
+      "mejora_materia_organica": "media"
+    },
+
+    "reproduccion": {
+      "floracion": "alta",
+      "produccion_semillas": "alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "polinizadores": [
+        "murcielagos",
+        "abejas",
+        "insectos"
+      ],
+
+      "dispersores": [
+        "viento",
+        "fauna"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "alto"
+    }
+  },
+
+  "mecanismos_ecologicos_xericos": {
+    "captura_escorrentia": true,
+    "retencion_humedad": true,
+    "proteccion_del_suelo": true,
+    "reduccion_erosion": true,
+    "creacion_refugios": true,
+    "formacion_microparches": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_matorral_xerofilo",
+      "control_de_erosion",
+      "recuperacion_de_suelos_degradados",
+      "incremento_de_cobertura_vegetal",
+      "recuperacion_de_biodiversidad_arida"
+    ],
+
+    "sitios_recomendados": [
+      "laderas_calcareas",
+      "suelos_pedregosos",
+      "zonas_semiaridas",
+      "matorral_degradado"
+    ],
+
+    "no_recomendado": [
+      "suelos_inundables",
+      "ambientes_humedos",
+      "sombra_densa"
+    ],
+
+    "especies_facilitadas": [
+      "Yucca_filifera",
+      "Dasylirion_texanum",
+      "cactaceas",
+      "arbustos_del_desierto"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "murcielagos",
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "reptiles",
+      "aves",
+      "mamiferos",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "muy_alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "mecanismos_xericos": "muy_alta",
+    "compatibilidad_restauracion": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Agave_lechuguilla",
+      "desierto_chihuahuense",
+      "ecologia_funcional_de_agaves",
+      "restauracion_de_ambientes_aridos"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_xericos",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "prosopis_glandulosa",
+
+  "nombre_comun": [
+    "mezquite dulce",
+    "mezquite",
+    "honey mesquite"
+  ],
+
+  "nombre_cientifico": "Prosopis glandulosa",
+
+  "tipo": "arbol_arbusto",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Fabales",
+    "familia": "Fabaceae",
+    "genero": "Prosopis",
+    "especie": "glandulosa"
+  },
+
+  "conservacion": {
+    "iucn": {
+      "categoria": "LC",
+      "descripcion": "Preocupación menor"
+    },
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 12,
+    "diametro_copa_m": 15,
+    "diametro_tronco_cm": 80,
+    "longevidad_anios": 100
+  },
+
+  "ecologia": {
+    "agua": "baja",
+    "sol": "pleno",
+    "crecimiento": "medio",
+    "captura_carbono": "alta"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral xerófilo",
+      "Pastizales áridos",
+      "Matorral espinoso",
+      "Bosque espinoso",
+      "Planicies semiáridas"
+    ],
+
+    "altitud_min_m": 0,
+    "altitud_max_m": 1800
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "raiz_profunda",
+    "tolerante_sequia",
+    "fijadora_nitrogeno"
+  ],
+
+  "rol_ecologico": [
+    "xerofita",
+    "pionera",
+    "colonizadora",
+    "fijadora_nitrogeno",
+    "fijadora_suelo",
+    "nodriza",
+    "facilitadora",
+    "ingeniera_ecosistema",
+    "estructural",
+    "refugio_fauna"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "temprana_intermedia",
+    "persistencia": "permanente",
+    "estrato": "dosel_medio"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": true,
+    "caducifolia": true,
+    "espinosa": true,
+
+    "tolerancia": {
+      "sequia": "muy_alta",
+      "heladas": "media_alta",
+      "calor": "muy_alta",
+      "salinidad": "alta",
+      "inundacion": "media",
+      "sombra": "baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "alto",
+      "despues_poda": "muy_alto"
+    },
+
+    "raiz": {
+      "profundidad": "muy_profunda",
+      "expansion_lateral": "muy_alta"
+    },
+
+    "copa": {
+      "densidad": "alta",
+      "capacidad_sombra": "muy_alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "alta",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "muy_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "alta",
+      "produccion_semillas": "muy_alta",
+      "regeneracion_natural": "alta"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "mamiferos",
+        "aves"
+      ],
+
+      "refugio_fauna": "muy_alto",
+      "valor_melifero": "alto"
+    }
+  },
+
+  "mecanismos_ecologicos_xericos": {
+    "fijacion_nitrogeno": true,
+    "formacion_islas_fertilidad": true,
+    "reduccion_erosion_eolica": true,
+    "retencion_humedad": true,
+    "sombra_para_regeneracion": true,
+    "mejora_suelo": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_matorral_xerofilo",
+      "recuperacion_de_suelos_degradados",
+      "control_de_erosion",
+      "captura_carbono",
+      "recuperacion_de_biodiversidad"
+    ],
+
+    "sitios_recomendados": [
+      "planicies_semiaridas",
+      "suelos_pobres",
+      "zonas_degradadas",
+      "matorral_espinoso"
+    ],
+
+    "no_recomendado": [
+      "zonas_muy_humedas",
+      "sombra_densa"
+    ],
+
+    "especies_facilitadas": [
+      "Celtis_pallida",
+      "Cordia_boissieri",
+      "Acacia",
+      "arbustos_xerofitos",
+      "gramineas_nativas"
+    ],
+
+    "prioridad_uso": "muy_alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "muy_alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "alta",
+    "ecologia": "muy_alta",
+    "habitat": "muy_alta",
+    "adaptaciones_ecologicas": "muy_alta",
+    "rol_ecologico": "muy_alta",
+    "mecanismos_xericos": "muy_alta",
+    "compatibilidad_restauracion": "muy_alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Prosopis_glandulosa",
+      "ecologia_funcional_de_leguminosas_aridas",
+      "islas_de_fertilidad_en_desiertos",
+      "restauracion_del_desierto_chihuahuense"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_xericos",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+},
+{
+  "id": "helietta_parvifolia",
+
+  "nombre_comun": [
+    "barreta",
+    "barreta dulce",
+    "cucharillo"
+  ],
+
+  "nombre_cientifico": "Helietta parvifolia",
+
+  "tipo": "arbusto_arbol_pequeno",
+
+  "taxonomia": {
+    "reino": "Plantae",
+    "phylum": "Tracheophyta",
+    "clase": "Magnoliopsida",
+    "orden": "Sapindales",
+    "familia": "Rutaceae",
+    "genero": "Helietta",
+    "especie": "parvifolia"
+  },
+
+  "conservacion": {
+    "iucn": null,
+    "nom059": null,
+    "cites": null
+  },
+
+  "estatus": {
+    "nativa": true,
+    "invasora": false,
+    "especie_prioritaria": false
+  },
+
+  "morfologia": {
+    "altura_max_m": 8,
+    "diametro_copa_m": 6,
+    "diametro_tronco_cm": 30,
+    "longevidad_anios": 80
+  },
+
+  "ecologia": {
+    "agua": "baja",
+    "sol": "pleno",
+    "crecimiento": "lento_medio",
+    "captura_carbono": "media"
+  },
+
+  "habitat": {
+    "tipo_vegetacion": [
+      "Matorral submontano",
+      "Matorral espinoso tamaulipeco",
+      "Bosque bajo espinoso",
+      "Lomeríos semiáridos"
+    ],
+
+    "altitud_min_m": 200,
+    "altitud_max_m": 1500
+  },
+
+  "adaptaciones_ecologicas": [
+    "xerofita",
+    "tolerante_sequia_estacional",
+    "adaptada_a_suelos_pedregosos"
+  ],
+
+  "rol_ecologico": [
+    "xerofita",
+    "estructural",
+    "facilitadora",
+    "nodriza",
+    "fijadora_suelo",
+    "control_erosion",
+    "refugio_fauna",
+    "generadora_microhabitat"
+  ],
+
+  "sucesion_ecologica": {
+    "etapa": "intermedia_tardia",
+    "persistencia": "permanente",
+    "estrato": "arbustivo_arbolado"
+  },
+
+  "rasgos_funcionales": {
+    "fijadora_nitrogeno": false,
+    "caducifolia": true,
+    "espinosa": false,
+
+    "tolerancia": {
+      "sequia": "alta",
+      "heladas": "media",
+      "calor": "alta",
+      "salinidad": "media",
+      "inundacion": "baja",
+      "sombra": "media_baja"
+    },
+
+    "rebrote": {
+      "despues_incendio": "medio",
+      "despues_poda": true
+    },
+
+    "raiz": {
+      "profundidad": "media_profunda",
+      "expansion_lateral": "alta"
+    },
+
+    "copa": {
+      "densidad": "media_alta",
+      "capacidad_sombra": "alta"
+    },
+
+    "suelo": {
+      "produccion_hojarasca": "media",
+      "descomposicion_hojarasca": "media",
+      "mejora_materia_organica": "media_alta"
+    },
+
+    "reproduccion": {
+      "floracion": "media",
+      "produccion_semillas": "media",
+      "regeneracion_natural": "media"
+    },
+
+    "interacciones": {
+      "dispersores": [
+        "aves",
+        "mamiferos"
+      ],
+
+      "refugio_fauna": "alto",
+      "valor_melifero": "medio"
+    }
+  },
+
+  "mecanismos_ecologicos_xericos": {
+    "proteccion_del_suelo": true,
+    "reduccion_escorrentia": true,
+    "reduccion_erosion": true,
+    "creacion_microhabitat": true,
+    "retencion_humedad_bajo_copa": true
+  },
+
+  "compatibilidad_restauracion": {
+    "objetivos": [
+      "restauracion_de_matorral_submontano",
+      "recuperacion_de_cobertura_leñosa",
+      "control_de_erosion",
+      "incremento_de_biodiversidad",
+      "recuperacion_de_ecosistemas_secos"
+    ],
+
+    "sitios_recomendados": [
+      "lomerios_secos",
+      "pie_de_montaña",
+      "suelos_calcareos",
+      "matorral_degradado"
+    ],
+
+    "no_recomendado": [
+      "zonas_inundables",
+      "suelos_muy_humedos",
+      "ambientes_extremadamente_aridos_sin_suelo"
+    ],
+
+    "especies_facilitadas": [
+      "Prosopis",
+      "Celtis",
+      "Cordia",
+      "Quercus_submontanos",
+      "arbustos_nativos"
+    ],
+
+    "prioridad_uso": "alta"
+  },
+
+  "servicios_ecosistemicos": {
+    "polinizadores": [
+      "abejas",
+      "insectos"
+    ],
+
+    "fauna_asociada": [
+      "aves",
+      "mamiferos",
+      "reptiles",
+      "insectos"
+    ],
+
+    "fijacion_suelo": true,
+    "control_erosion": true,
+    "valor_para_restauracion": "alto"
+  },
+
+  "nivel_confianza": {
+    "morfologia": "media_alta",
+    "ecologia": "alta",
+    "habitat": "alta",
+    "adaptaciones_ecologicas": "alta",
+    "rol_ecologico": "alta",
+    "mecanismos_xericos": "alta",
+    "compatibilidad_restauracion": "alta"
+  },
+
+  "ejemplar_snib": null,
+
+  "fuentes": {
+    "snib": [
+      "nombre_cientifico",
+      "taxonomia"
+    ],
+
+    "literatura": [
+      "ecologia_de_Helietta_parvifolia",
+      "matorral_submontano_del_noreste_de_Mexico",
+      "estructura_de_comunidades_aridas"
+    ],
+
+    "inferido": [
+      "morfologia",
+      "rol_ecologico",
+      "mecanismos_ecologicos_xericos",
+      "compatibilidad_restauracion",
+      "servicios_ecosistemicos",
+      "nivel_confianza"
+    ]
+  }
+}
+]
