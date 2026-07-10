@@ -1,5 +1,45 @@
 import json
 import networkx as nx
+from networkx.algorithms.community import greedy_modularity_communities
+from proyecto import ProyectoEcologico
+from evaluador import evaluar_especie_proyecto
+from ensamblador import *
+
+# -------------------------
+# 1. Definir proyecto
+# -------------------------
+
+proyecto = ProyectoEcologico(
+
+    tipo_ecosistema="matorral_submontano",
+
+    fase_sucesion="inicial",
+
+    area_ha=50,
+
+    objetivos=[
+        "control_erosion",
+        "captura_carbono",
+        "recuperacion_habitat_fauna",
+        "regulacion_microclima"
+    ],
+
+    condiciones={
+
+        "agua": "baja",
+
+        "humedad": "semiarido",
+
+        "suelo": "degradado"
+
+    },
+
+    restricciones={
+
+        "riego": "sin_riego"
+
+    }
+)
 
 ORDEN_AGUA = {
     "extremadamente_baja": 0,
@@ -67,6 +107,8 @@ def generate_functional_profile(datos):
             },
             "rasgos_funcionales": {
                 "estrato": "",
+                "persistencia": "",
+                "etapa": "",
 
                 "altura_max_m": None,
 
@@ -100,6 +142,8 @@ def generate_functional_profile(datos):
         compatibilidad = data["compatibilidad_restauracion"]["objetivos"]
         refugio_fauna = data["rasgos_funcionales"]["interacciones"]["refugio_fauna"]
         estrato = data["sucesion_ecologica"]["estrato"]
+        etapa = data["sucesion_ecologica"]["etapa"]
+        persistencia = data["sucesion_ecologica"]["persistencia"]
         altura_max_m = data["morfologia"]["altura_max_m"]
         if altura_max_m:
             response["rasgos_funcionales"]["altura_max_m"] = altura_max_m
@@ -150,6 +194,10 @@ def generate_functional_profile(datos):
 
         if estrato:
             response["rasgos_funcionales"]["estrato"] = estrato
+        if etapa:
+            response["rasgos_funcionales"]["etapa"] = etapa
+        if persistencia:
+            response["rasgos_funcionales"]["persistencia"] = persistencia
         if refugio_fauna:
             response["rol_ecologico"]["interaccion_biologica"]["refugio_fauna"] = True
 
@@ -209,24 +257,113 @@ def generate_functional_profile(datos):
     return responses
 
 def extraccion_limpia(response):
+
     r = response["rol_ecologico"]
     f = response["rasgos_funcionales"]
 
-    binarios_ecologicos = {
-        "roles": {k for k, v in r["facilitacion"].items() if v}
-        | {k for k, v in r["suelo"].items() if v}
-        | {k for k, v in r["interaccion_biologica"].items() if v}
-        | {k for k, v in r["ambiente"].items() if v}
-        | {k for k, v in r["microhabitat"].items() if v},
 
-        "sucesion": {k for k, v in r["sucesion"].items() if v},
+    # -------------------------
+    # Construcción de roles
+    # -------------------------
+
+    roles = set()
+
+
+    for grupo in [
+        r["facilitacion"],
+        r["suelo"],
+        r["interaccion_biologica"],
+        r["ambiente"],
+        r["microhabitat"]
+    ]:
+
+        roles |= {
+            k for k, v in grupo.items()
+            if v
+        }
+
+
+    # estructura también es un rol funcional
+    if r["estructura"]["estructural"]:
+        roles.add("estructural")
+
+
+    # -------------------------
+    # Perfil limpio
+    # -------------------------
+
+    binarios_ecologicos = {
+
+        # Roles ecológicos
+        "roles": roles,
+
+
+        # Sucesión temprana
+        "sucesion": {
+            k for k, v in r["sucesion"].items()
+            if v
+        },
+
+
+        # Estructura
         "estructura": r["estructura"]["tipo"],
+
+
+        # Morfología
         "altura": f["altura_max_m"],
+
         "copa": f["diametro_copa_m"],
+
+
+        # Recursos
         "agua": f["agua"],
+
         "carbono": f["captura_carbono"],
-        "ambiente": {k for k, v in r["ambiente"].items() if v}
+
+
+        # Ambiente
+        "ambiente": {
+            k for k, v in r["ambiente"].items()
+            if v
+        },
+
+
+        # Sucesión avanzada
+        "etapa": f.get(
+            "etapa",
+            ""
+        ),
+
+        "persistencia": f.get(
+            "persistencia",
+            ""
+        ),
+
+
+        # -------------------------
+        # Compatibilidad proyecto
+        # -------------------------
+
+        "tolerancia_sequia": f["tolerancia"]["sequia"],
+
+        "tolerancia_heladas": f["tolerancia"]["heladas"],
+
+        "tolerancia_calor": f["tolerancia"]["calor"],
+
+        "tolerancia_salinidad": f["tolerancia"]["salinidad"],
+
+        "tolerancia_inundacion": f["tolerancia"]["inundacion"],
+
+        "tolerancia_sombra": f["tolerancia"]["sombra"],
+
+
+        "crecimiento": f["crecimiento"],
+
+        "sol": f["sol"]
+
     }
+
+
     return binarios_ecologicos
 
 def comp_sucesion(A, B):
@@ -251,13 +388,27 @@ def comp_estructura(A, B):
 
 def comp_roles(A, B):
 
-    a, b = A["roles"], B["roles"]
+    a,b=A["roles"],B["roles"]
 
-    overlap = len(a & b)
-    union = len(a | b)
+    if not a or not b:
+        return 0.5
 
-    # penaliza redundancia, premia diversidad
-    return 1 - (overlap / union)
+
+    overlap=len(a&b)
+    union=len(a|b)
+
+
+    redundancia = overlap/union
+
+    complementariedad = (
+        len(a^b)/union
+    )
+
+
+    return (
+        0.6*complementariedad +
+        0.4*redundancia
+    )
 
 def comp_ambiente(A, B):
 
@@ -324,13 +475,21 @@ def build_matrix(features_map):
 
     return matrix
 
-def build_graph(matrix, threshold=0.6):
-    import networkx as nx
+def build_graph(matrix, features_map, threshold=0.6):
 
     G = nx.Graph()
 
-    for a in matrix:
-        G.add_node(a)
+    for species_id, features in features_map.items():
+
+        G.add_node(
+            species_id,
+            roles=list(features["roles"]),
+            sucesion=list(features["sucesion"]),
+            ambiente=list(features["ambiente"]),
+            altura=features["altura"],
+            agua=features["agua"],
+            carbono=features["carbono"]
+        )
 
     for a in matrix:
         for b, w in matrix[a].items():
@@ -340,21 +499,309 @@ def build_graph(matrix, threshold=0.6):
 
     return G
 
+def especies_nucleo(G):
+
+    centralidad = nx.degree_centrality(G)
+
+    return sorted(
+        centralidad.items(),
+        key=lambda x:x[1],
+        reverse=True
+    )
+
+def especies_puente(G):
+
+    puente = nx.betweenness_centrality(
+        G,
+        weight="weight"
+    )
+
+    return sorted(
+        puente.items(),
+        key=lambda x:x[1],
+        reverse=True
+    )
+
+def encontrar_comunidades(G):
+
+    comunidades = greedy_modularity_communities(
+        G,
+        weight="weight"
+    )
+
+    return comunidades
+
+def redundancia_funcional(G):
+
+    resultado={}
+
+    for nodo in G.nodes:
+
+        roles_G=list(
+            G.nodes[nodo]["roles"]
+        )
+
+        contador=0
+
+        for vecino in G.neighbors(nodo):
+
+            roles_vecino=G.nodes[vecino]["roles"]
+
+            if set(roles_G)&set(roles_vecino):
+                contador+=1
+
+        resultado[nodo]=contador
+
+
+    return sorted(
+        resultado.items(),
+        key=lambda x:x[1],
+        reverse=True
+    )
+
+def debug_score(A, B):
+
+    print("SUCECION:", comp_sucesion(A,B))
+    print("ESTRUCTURA:", comp_estructura(A,B))
+    print("ROLES:", comp_roles(A,B))
+    print("AMBIENTE:", comp_ambiente(A,B))
+    print("AGUA:", comp_agua(A,B))
+
+    total = (
+        0.25 * comp_sucesion(A,B) +
+        0.25 * comp_estructura(A,B) +
+        0.25 * comp_roles(A,B) +
+        0.15 * comp_ambiente(A,B) +
+        0.10 * comp_agua(A,B)
+    )
+
+    print("TOTAL:", total)
+
+
+
+def rankear_especies(proyecto, features_map):
+
+    resultados = []
+
+
+    for especie_id, especie in features_map.items():
+
+        score = evaluar_especie_proyecto(
+            especie,
+            proyecto
+        )
+
+        resultados.append({
+            "id": especie_id,
+            "score": score
+        })
+
+
+    resultados.sort(
+        key=lambda x: x["score"],
+        reverse=True
+    )
+
+
+    return resultados
+
+def imprimir_resumen_red(G):
+
+    print("\n======================")
+    print("RED ECOLÓGICA")
+    print("======================")
+
+    print(
+        "Especies:",
+        G.number_of_nodes()
+    )
+
+    print(
+        "Relaciones:",
+        G.number_of_edges()
+    )
+
+
+
+    print("\n======================")
+    print("ESPECIES NÚCLEO")
+    print("======================")
+
+
+    for especie, valor in especies_nucleo(G):
+
+        print(
+            especie,
+            round(valor,3)
+        )
+
+
+
+    print("\n======================")
+    print("ESPECIES PUENTE")
+    print("======================")
+
+
+    for especie, valor in especies_puente(G):
+
+        print(
+            especie,
+            round(valor,3)
+        )
+
+
+
+    print("\n======================")
+    print("COMUNIDADES")
+    print("======================")
+
+
+    for i,c in enumerate(
+        encontrar_comunidades(G)
+    ):
+
+        print(
+            f"Grupo {i+1}:",
+            c
+        )
+
+
+
+    print("\n======================")
+    print("REDUNDANCIA FUNCIONAL")
+    print("======================")
+
+
+    for especie, valor in redundancia_funcional(G):
+
+        print(
+            especie,
+            valor
+        )
+
+def imprimir_ranking(ranking):
+
+    print("\n======================")
+    print("RANKING ECOLÓGICO")
+    print("======================")
+
+
+    for r in ranking:
+
+        print(
+            r["id"],
+            r["score"]
+        )
+
 def main():
+
+    # =========================
+    # 1. Cargar especies
+    # =========================
+
     with open("./arbolesDataV2.json") as f:
+
         data = json.load(f)
-    
-    responses = generate_functional_profile(data)
 
-    features_map = build_features(responses)
 
-    matrix = build_matrix(features_map)
 
-    G = build_graph(matrix, threshold=0.6)
+    # =========================
+    # 2. Perfil funcional
+    # =========================
 
-    for u, v, d in list(G.edges(data=True)):
-        print(u, v, d["weight"])
+    responses = generate_functional_profile(
+        data
+    )
+
+
+    features_map = build_features(
+        responses
+    )
+
+
+
+    # =========================
+    # 3. Construcción red ecológica
+    # =========================
+
+    matrix = build_matrix(
+        features_map
+    )
+
+
+    G = build_graph(
+        matrix,
+        features_map,
+        threshold=0.6
+    )
+
+
+
+    # =========================
+    # 4. Análisis red
+    # =========================
+
+    imprimir_resumen_red(
+        G
+    )
+
+
+
+    # =========================
+    # 5. Ranking ecológico
+    # =========================
+
+    ranking = rankear_especies(
+        proyecto,
+        features_map
+    )
+
+
+    imprimir_ranking(
+        ranking
+    )
+
+    comunidad = seleccionar_comunidad(
+        ranking,
+        features_map,
+        proyecto,
+        G,
+        cantidad=10
+    )
+
+    plan = planificar_sucesion(
+        comunidad,
+        features_map
+    )
+
+
+    print("======================")
+    print("PLAN SUCESIONAL")
+    print("======================")
+
+
+    for fase, especies in plan.items():
+
+        print("\n" + fase)
+
+        for especie in especies:
+
+            print(
+                especie
+            )
+
+    print("\n======================")
+    print("COMUNIDAD PROPUESTA")
+    print("======================")
+
+
+    for especie in comunidad:
+
+        print(especie)
+
+
 
 
 if __name__ == "__main__":
+
     main()
