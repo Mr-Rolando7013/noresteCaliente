@@ -1,6 +1,21 @@
 import json
+import networkx as nx
+
+ORDEN_AGUA = {
+    "extremadamente_baja": 0,
+    "muy_baja":1,
+    "baja":2,
+    "baja_media": 3,
+    "media":4,
+    "media_alta": 5,
+    "alta":6,
+    "muy_alta":7
+}
+
 
 def generate_functional_profile(datos):
+    roles_unicos = set()
+    responses = []
     for data in datos:
         # Todo: Profundidad y expansion de raiz
         response = {
@@ -81,6 +96,7 @@ def generate_functional_profile(datos):
         rol_ecologico = []
         compatibilidad = []
         rol_ecologico = data.get("rol_ecologico", [])
+        roles_unicos.update(rol_ecologico)
         compatibilidad = data["compatibilidad_restauracion"]["objetivos"]
         refugio_fauna = data["rasgos_funcionales"]["interacciones"]["refugio_fauna"]
         estrato = data["sucesion_ecologica"]["estrato"]
@@ -189,13 +205,156 @@ def generate_functional_profile(datos):
             if rol == "control_erosion":
                 response["rol_ecologico"]["suelo"]["control_erosion"] = True
 
-    print(response)
+        responses.append(response)
+    return responses
+
+def extraccion_limpia(response):
+    r = response["rol_ecologico"]
+    f = response["rasgos_funcionales"]
+
+    binarios_ecologicos = {
+        "roles": {k for k, v in r["facilitacion"].items() if v}
+        | {k for k, v in r["suelo"].items() if v}
+        | {k for k, v in r["interaccion_biologica"].items() if v}
+        | {k for k, v in r["ambiente"].items() if v}
+        | {k for k, v in r["microhabitat"].items() if v},
+
+        "sucesion": {k for k, v in r["sucesion"].items() if v},
+        "estructura": r["estructura"]["tipo"],
+        "altura": f["altura_max_m"],
+        "copa": f["diametro_copa_m"],
+        "agua": f["agua"],
+        "carbono": f["captura_carbono"],
+        "ambiente": {k for k, v in r["ambiente"].items() if v}
+    }
+    return binarios_ecologicos
+
+def comp_sucesion(A, B):
+
+    a, b = A["sucesion"], B["sucesion"]
+
+    if not a or not b:
+        return 0.6
+
+    if "pionera" in a and "colonizadora" in b:
+        return 0.95
+    if "colonizadora" in a and "colonizadora_secundaria" in b:
+        return 0.9
+
+    return len(a & b) / max(len(a | b), 1)
+
+def comp_estructura(A, B):
+
+    diff = abs(A["altura"] - B["altura"])
+
+    return 1 - min(diff / 10, 1)
+
+def comp_roles(A, B):
+
+    a, b = A["roles"], B["roles"]
+
+    overlap = len(a & b)
+    union = len(a | b)
+
+    # penaliza redundancia, premia diversidad
+    return 1 - (overlap / union)
+
+def comp_ambiente(A, B):
+
+    a, b = A["ambiente"], B["ambiente"]
+
+    if "riparia" in a and "xerofita" in b:
+        return 0.0
+
+    if a == b:
+        return 1.0
+
+    return 0.6
+
+def comp_agua(A, B):
+
+    d = abs(ORDEN_AGUA[A["agua"]] - ORDEN_AGUA[B["agua"]])
+
+    return 1 - d/3
+
+def score(A, B):
+
+    return (
+        0.25 * comp_sucesion(A,B) +
+        0.25 * comp_estructura(A,B) +
+        0.25 * comp_roles(A,B) +
+        0.15 * comp_ambiente(A,B) +
+        0.10 * comp_agua(A,B)
+    )
+
+def build_features(responses):
+    return {
+        sp["id"]: extraccion_limpia(sp)
+        for sp in responses
+    }
+
+def safe_score(A, B):
+    s = score(A, B)
+    return max(0.0, min(1.0, s))
+
+def build_matrix(features_map):
+    ids = list(features_map.keys())
+
+    matrix = {}
+
+    for i in range(len(ids)):
+
+        a_id = ids[i]
+        A = features_map[a_id]
+
+        matrix[a_id] = {}
+
+        for j in range(i, len(ids)):
+
+            b_id = ids[j]
+            B = features_map[b_id]
+
+            s = safe_score(A, B)
+
+            matrix[a_id][b_id] = s
+
+            if a_id != b_id:
+                matrix[b_id] = matrix.get(b_id, {})
+                matrix[b_id][a_id] = s
+
+    return matrix
+
+def build_graph(matrix, threshold=0.6):
+    import networkx as nx
+
+    G = nx.Graph()
+
+    for a in matrix:
+        G.add_node(a)
+
+    for a in matrix:
+        for b, w in matrix[a].items():
+
+            if a != b and w > threshold:
+                G.add_edge(a, b, weight=w)
+
+    return G
 
 def main():
     with open("./arbolesDataV2.json") as f:
         data = json.load(f)
     
-    generate_functional_profile(data)
+    responses = generate_functional_profile(data)
+
+    features_map = build_features(responses)
+
+    matrix = build_matrix(features_map)
+
+    G = build_graph(matrix, threshold=0.6)
+
+    for u, v, d in list(G.edges(data=True)):
+        print(u, v, d["weight"])
+
 
 if __name__ == "__main__":
     main()
